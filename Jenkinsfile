@@ -18,7 +18,7 @@ pipeline {
         stage('print parameters') {
             steps {
                 script {
-                    echo params.PARAMETER_01
+                    echo params.SOE_PARAMETER
                 }
             }        
                     
